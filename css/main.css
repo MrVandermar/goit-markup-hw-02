@@ -1,0 +1,118 @@
+/* цвет текста заголовков от h2 #212121 */
+/* цвет  текста информации  ##757575*/
+/* белый #FFFFFF*/
+/* Добавочный фон #2F303A*/
+/* фон акцента #2196F3*/
+
+:root {
+  --information-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --background-second-color: #2f303a;
+  --accent-color: #2196f3;
+}
+/* глобальные селекторы */
+body {
+  background-color: var(--primary-white-color);
+  color: var(--information-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+/* логотип */
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+}
+.logo > span {
+  color: #2196f3;
+}
+/* навигация и футер */
+
+.nav-list {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.nav-list:hover {
+  color: var(--accent-color);
+}
+.nav-list:focus {
+  color: var(--accent-color);
+}
+/* герой */
+
+.hero {
+  background-color: var(--background-second-color);
+}
+.title-hero {
+  color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button-hero {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* достоинства */
+
+.dignity-title {
+  color: var(--title-text-color);
+
+  text-transform: uppercase;
+}
+.dignity-list {
+  line-height: 1.7;
+}
+
+/* Чем мы занимаемся */
+
+.our-work {
+  color: var(--title-text-color);
+
+  font-size: 36px;
+  text-align: center;
+}
+
+/* Наша команда */
+
+.our-team {
+  color: var(--title-text-color);
+
+  font-size: 36px;
+  text-align: center;
+}
+
+.our-team-name {
+  font-size: 16px;
+  font-weight: 500;
+
+  color: var(--title-text-color);
+}
+
+.our-team-position {
+  font-size: 16px;
+  text-align: center;
+}
