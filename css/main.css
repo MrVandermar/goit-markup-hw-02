@@ -75,6 +75,8 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 /* достоинства */
 
@@ -131,6 +133,8 @@ ul {
 .examples-button-unit:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+
+  cursor: pointer;
 }
 /* портфолио проекты */
 .project-title {
