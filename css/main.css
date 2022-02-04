@@ -4,6 +4,8 @@
 /* Добавочный фон #2F303A*/
 /* фон акцента #2196F3*/
 
+/* общие переменные */
+
 :root {
   --information-text-color: #757575;
   --title-text-color: #212121;
@@ -11,7 +13,9 @@
   --background-second-color: #2f303a;
   --accent-color: #2196f3;
 }
+
 /* глобальные селекторы */
+
 body {
   background-color: var(--primary-white-color);
   color: var(--information-text-color);
@@ -21,9 +25,12 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-ul {
+
+/* обнуление стилей списков */
+.list li {
   list-style: none;
 }
+
 /* логотип */
 
 .logo {
@@ -35,6 +42,7 @@ ul {
 .logo > span {
   color: #2196f3;
 }
+
 /* навигация и футер */
 
 .nav-list {
@@ -49,6 +57,7 @@ ul {
 .nav-list:focus {
   color: var(--accent-color);
 }
+
 /* герой */
 
 .hero {
@@ -78,6 +87,7 @@ ul {
 
   cursor: pointer;
 }
+
 /* достоинства */
 
 .dignity-title {
@@ -121,6 +131,7 @@ ul {
 }
 
 /* портфолио кнопки */
+
 .examples-button {
   color: var(--title-text-color);
 
@@ -136,7 +147,9 @@ ul {
 
   cursor: pointer;
 }
+
 /* портфолио проекты */
+
 .project-title {
   color: var(--title-text-color);
 
