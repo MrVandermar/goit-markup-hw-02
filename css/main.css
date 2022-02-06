@@ -13,6 +13,7 @@
   --background-second-color: #2f303a;
   --accent-color: #2196f3;
   --primary-black-color: #000000;
+  --footer-white-color: rgba(255, 255, 255, 0.6);
 }
 
 /* глобальные селекторы */
@@ -83,7 +84,7 @@ body {
   color: var(--accent-color);
 }
 .nav-contakt-footer {
-  color: var(--primary-white-color);
+  color: var(--footer-white-color);
 
   line-height: 1.7;
 }
@@ -117,6 +118,7 @@ body {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -178,6 +180,7 @@ body {
 .examples-button-unit {
   color: var(--title-text-color);
 
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
