@@ -56,28 +56,29 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+
   /* outline: 2px solid tomato; */
 }
+/* падинги для секций */
 
-/* .container.dignity,
-.container.our-work,
-.container.our-team {
+.dignity-main,
+.our-team-main,
+.button-main {
   padding-top: 94px;
   padding-bottom: 94px;
-} */
+}
+.our-work-main {
+  padding-bottom: 94px;
+}
 
-.container.footer {
+.footer-main {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.container-header {
+.header-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 /* Нижняя рамка шапки */
 
@@ -199,7 +200,7 @@ body {
 
 .hero {
   padding-top: 200px;
-  /* padding-bottom: 200px; */
+  padding-bottom: 200px;
 
   background-color: var(--background-second-color);
 
@@ -222,7 +223,7 @@ body {
   min-width: 200px;
   /* height: 50px; */
   padding: 10px 30px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
   border-color: transparent;
   border-radius: 4px;
 
@@ -321,9 +322,6 @@ body {
   text-align: center;
 }
 
-.our-team-foto {
-  margin-bottom: 30px;
-}
 .our-team-name {
   margin-top: 0;
   margin-bottom: 10px;
@@ -331,16 +329,18 @@ body {
   font-weight: 500;
 
   text-align: center;
-
   color: var(--title-text-color);
 }
 
 .our-team-position {
   margin-top: 0px;
-  margin-bottom: 30px;
 
   font-size: 16px;
   text-align: center;
+}
+.our-team-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* портфолио кнопки */
@@ -391,17 +391,19 @@ body {
   margin-bottom: 30px;
 }
 .project-info {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
 
 .project-title {
-  margin-left: 24px;
-  margin-right: 24px;
   margin-top: 0;
   margin-bottom: 4px;
-  padding-top: 20px;
 
   color: var(--title-text-color);
   font-size: 18px;
@@ -409,10 +411,7 @@ body {
   letter-spacing: 0.06em;
 }
 .project-text {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 
   color: var(--information-text-color);
   font-size: 16px;
